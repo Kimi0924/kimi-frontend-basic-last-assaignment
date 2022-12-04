@@ -23,4 +23,4 @@ jobs:
       - uses: chromaui/action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          projectToken: 99719052c0b5
+          projectToken: 5fcf5dd36056
