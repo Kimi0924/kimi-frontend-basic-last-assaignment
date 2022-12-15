@@ -1,14 +1,11 @@
 @use "../../variables" as *;
 .button {
-  text-align: center;
   background-color: $black;
   display: inline-block;
-  font-size: 14px;
+  font-size: $small;
   font-family: $fontfamily-gothic;
   color: $white;
-  width: 200px;
-  height: 55px;
-  padding: 17.5px;
+  padding: 17.5px 74px 17.5px 74px;
   transition: 0.2s ease;
   text-decoration: none;
   &:hover {
@@ -16,11 +13,9 @@
     background-color: $orange_bistre;
   }
   @media screen and (max-width: $breakpoint-lg) {
-    width: 150px;
+    padding: 17.5px 49px 17.5px 49px;
   }
   @media screen and (max-width: $breakpoint-md) {
-    height: 45px;
-    padding: 12.5px 0 12.5px 0;
-    width: 180px;
+    padding: 12.5px 64px 12.5px 64px;
   }
 }
