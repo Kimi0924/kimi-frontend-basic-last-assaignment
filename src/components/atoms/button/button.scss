@@ -6,7 +6,6 @@
   font-size: $fontsize-s;
   color: $white;
   width: 200px;
-  height: 55px;
   padding: 17.5px;
   transition: 0.2s ease;
   text-decoration: none;
@@ -18,7 +17,6 @@
     width: 150px;
   }
   @media screen and (max-width: $breakpoint-md) {
-    height: 45px;
     padding: 12.5px 0 12.5px 0;
     width: 180px;
   }
