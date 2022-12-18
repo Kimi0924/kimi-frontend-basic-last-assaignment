@@ -1,6 +1,27 @@
 .message {
   text-align: center;
   margin: 52px 20px;
-  @media screen {
+  @media screen and(max-width:$breakpoint-md) {
+    margin: 32px 20px;
+  }
+  .title {
+    font-size: $fontsize-xl;
+    color: $black;
+    font-family: $fontfamily-mincho;
+    margin-bottom: 10px;
+    line-height: 54px;
+    @media screen and(max-width:$breakpoint-md) {
+      font-size: $fontsize-l;
+      margin-bottom: 6px;
+      line-height: 30px;
+    }
+  }
+  .text {
+    font-size: $fontsize-s;
+    line-height: 36px;
+    @media screen and(max-width:$breakpoit-md) {
+      font-size: $fontsize-s;
+      line-height: 28px;
+    }
   }
 }
