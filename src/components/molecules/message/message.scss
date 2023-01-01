@@ -1,27 +1,69 @@
-.message {
+@use "../../variables" as *;
+.message1 {
   text-align: center;
   margin: 52px 20px;
+  padding: 76px 44px;
+  background-color: $black;
+  line-height: 54px;
   @media screen and(max-width:$breakpoint-md) {
-    margin: 32px 20px;
+    padding: 32px 20px;
   }
-  .title {
-    font-size: $fontsize-xl;
-    color: $black;
-    font-family: $fontfamily-mincho;
-    margin-bottom: 10px;
-    line-height: 54px;
-    @media screen and(max-width:$breakpoint-md) {
-      font-size: $fontsize-l;
-      margin-bottom: 6px;
-      line-height: 30px;
-    }
+}
+
+.title1 {
+  margin: 0px 10px;
+  background-color: $black;
+  color: $white;
+  font-size: $fontsize-xl;
+  font-family: $fontfamily-mincho;
+  margin-bottom: 10px;
+}
+
+.text1 {
+  background-color: $black;
+  color: $white;
+  font-size: $fontsize-s;
+  font-family: $fontfamily-gothic;
+}
+.message2 {
+  text-align: center;
+  margin: 52px 20px;
+  background-color: $white_smoke;
+  line-height: 54px;
+  @media screen and(max-width:$breakpoint-md) {
+    padding: 32px 20px;
   }
-  .text {
-    font-size: $fontsize-s;
-    line-height: 36px;
-    @media screen and(max-width:$breakpoit-md) {
-      font-size: $fontsize-s;
-      line-height: 28px;
-    }
+}
+
+.title2 {
+  padding: 76px 44px;
+  color: $orange_bistre;
+  font-size: $fontsize-xl;
+  font-family: $fontfamily-mincho;
+  margin-bottom: 10px;
+}
+.text2 {
+  color: $gray_nobel;
+  font-size: $fontsize-s;
+}
+.message3 {
+  text-align: center;
+  padding: 52px 20px;
+  background-color: $white;
+  line-height: 54px;
+  @media screen and(max-width:$breakpoint-md) {
+    padding: 32px 20px;
   }
+}
+
+.title3 {
+  padding: 76px 44px;
+  color: $orange_bistre;
+  font-size: $fontsize-xl;
+  font-family: $fontfamily-mincho;
+  margin-bottom: 10px;
+}
+.text3 {
+  color: $gray_nobel;
+  font-size: $fontsize-s;
 }
