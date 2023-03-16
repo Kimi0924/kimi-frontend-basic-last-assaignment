@@ -1,6 +1,29 @@
-.card-top {
-  width: 224px;
-  height: 175.27px;
+@use "../../variables" as *;
+.card-img {
+  position: relative;
+  margin-bottom: 32.73px;
+}
+
+.card-imgframe {
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  border-bottom: 150px solid transparent;
+  border-left: 150px solid $white;
+}
+
+.title {
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+  left: 6px;
+  color: $orange_bistre;
+  font-size: 20px;
+}
+
+.text {
+  margin: 32px;
+  font-size: 14px;
 }
 
 .card-button {
