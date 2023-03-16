@@ -23,7 +23,6 @@
   .text1 {
     color: $black;
     font-size: $fontsize-s;
-    font-family: $fontfamily-gothic;
     line-height: 36px;
     @media screen and(max-width:$breakpoint-md) {
       line-height: 28px;
