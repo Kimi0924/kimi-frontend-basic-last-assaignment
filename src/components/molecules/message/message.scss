@@ -3,102 +3,31 @@
   text-align: center;
   margin: 52px 20px;
   padding: 76px 44px;
-  background-color: $black;
   @media screen and(max-width:$breakpoint-md) {
     padding: 32px 20px;
   }
-}
 
-.title1 {
-  margin: 0px 10px;
-  background-color: $black;
-  color: $white;
-  font-size: $fontsize-xl;
-  font-family: $fontfamily-mincho;
-  margin-bottom: 10px;
-  line-height: 54px;
-  @media screen and(max-width:$breakpoint-md) {
-    line-height: 30px;
-    font-size: $fontsize-l;
+  .title1 {
+    margin: 0px 10px;
+    color: $black;
+    font-size: $fontsize-xl;
+    font-family: $fontfamily-mincho;
+    margin-bottom: 10px;
+    line-height: 54px;
+    @media screen and(max-width:$breakpoint-md) {
+      line-height: 30px;
+      font-size: $fontsize-l;
+    }
   }
-}
 
-.text1 {
-  background-color: $black;
-  color: $white;
-  font-size: $fontsize-s;
-  font-family: $fontfamily-gothic;
-  line-height: 36px;
-  @media screen and(max-width:$breakpoint-md) {
-    line-height: 28px;
+  .text1 {
+    color: $black;
     font-size: $fontsize-s;
-  }
-}
-
-.message2 {
-  text-align: center;
-  margin: 52px 20px;
-  padding: 76px 44px;
-  background-color: $white_smoke;
-  @media screen and(max-width:$breakpoint-md) {
-    padding: 32px 20px;
-  }
-}
-
-.title2 {
-  margin: 0px 10px;
-  color: $orange_bistre;
-  font-size: $fontsize-xl;
-  font-family: $fontfamily-mincho;
-  margin-bottom: 10px;
-  line-height: 54px;
-  @media screen and(max-width:$breakpoint-md) {
-    line-height: 30px;
-    font-size: $fontsize-l;
-  }
-}
-
-.text2 {
-  color: $gray_nobel;
-  font-size: $fontsize-s;
-  font-family: $fontfamily-gothic;
-  line-height: 36px;
-  @media screen and(max-width:$breakpoint-md) {
-    line-height: 28px;
-    font-size: $fontsize-s;
-  }
-}
-
-.message3 {
-  text-align: center;
-  margin: 52px 20px;
-  padding: 52px 20px;
-  background-color: $white;
-  @media screen and(max-width:$breakpoint-md) {
-    padding: 32px 20px;
-  }
-}
-
-.title3 {
-  margin: 0px 10px;
-  color: $orange_bistre;
-  font-size: $fontsize-xl;
-  font-family: $fontfamily-mincho;
-  margin-bottom: 10px;
-  line-height: 54px;
-  @media screen and(max-width:$breakpoint-md) {
-    line-height: 30px;
-    font-size: $fontsize-l;
-  }
-}
-
-.text3 {
-  color: $gray_nobel;
-  font-size: $fontsize-s;
-  font-family: $fontfamily-gothic;
-  line-height: 36px;
-  @media screen and(max-width:$breakpoint-md) {
-    line-height: 28px;
-    font-size: $fontsize-s;
+    font-family: $fontfamily-gothic;
+    line-height: 36px;
+    @media screen and(max-width:$breakpoint-md) {
+      line-height: 28px;
+      font-size: $fontsize-s;
+    }
   }
 }
