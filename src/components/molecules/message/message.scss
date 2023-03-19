@@ -10,9 +10,11 @@
     color: $black;
     font-size: $fontsize-xl;
     font-family: $fontfamily-mincho;
-    margin-bottom: 6px;
+    font-weight: 400;
+    margin-bottom: 10px;
     line-height: 54px;
     @media screen and(max-width:$breakpoint-lg) {
+      margin-bottom: 6px;
       line-height: 30px;
       font-size: $fontsize-l;
     }
@@ -25,7 +27,6 @@
     line-height: 36px;
     @media screen and(max-width:$breakpoint-lg) {
       line-height: 28px;
-      font-size: $fontsize-s;
     }
   }
 }
