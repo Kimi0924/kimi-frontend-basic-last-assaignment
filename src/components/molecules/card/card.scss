@@ -2,6 +2,10 @@
 .card-img {
   position: relative;
   margin-bottom: 32.73px;
+  &:hover {
+    overflow: hidden;
+    transform: scale(1.1);
+  }
 }
 
 .card-imgframe {
@@ -19,7 +23,7 @@
   top: 0px;
   left: 6px;
   color: $orange_bistre;
-  font-size: 20px;
+  font-size: $fontsize-l;
 }
 
 .text {
@@ -28,7 +32,8 @@
 }
 
 .card-button {
-  padding: 96px 32px;
-  width: 37px;
+  display: flex;
+  justify-content: center;
+  margin: 37px 32px;
   line-height: 33.4px;
 }
