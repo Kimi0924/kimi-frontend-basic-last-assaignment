@@ -1,11 +1,15 @@
 @use "../../variables" as *;
-.card-img {
+.card-img-top {
   position: relative;
   margin-bottom: 32.73px;
   &:hover {
     overflow: hidden;
     transform: scale(1.1);
   }
+}
+
+.card-img {
+  overflow: hidden;
 }
 
 .card-imgframe {
