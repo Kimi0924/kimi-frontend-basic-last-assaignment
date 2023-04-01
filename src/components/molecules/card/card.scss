@@ -1,10 +1,11 @@
 @use "../../variables" as *;
 .card-img-top {
   position: relative;
-  margin-bottom: 32.73px;
+
   &:hover {
     overflow: hidden;
     transform: scale(1.1);
+    transition: 0.2s ease;
   }
 }
 
