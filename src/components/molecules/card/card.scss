@@ -1,48 +1,50 @@
 @use "../../variables" as *;
-.card-img-top {
-  position: relative;
+.card {
+  .card-img-top {
+    position: relative;
 
-  &:hover {
-    overflow: hidden;
-    transform: scale(1.1);
-    transition: 0.2s ease;
+    &:hover {
+      overflow: hidden;
+      transform: scale(1.1);
+      transition: 0.2s ease;
+    }
   }
-}
 
-.card-img {
-  overflow: hidden;
-}
+  .card-img {
+    overflow: hidden;
+  }
 
-.card-body {
-  padding: initial;
-}
+  .card-body {
+    padding: initial;
+  }
 
-.card-imgframe {
-  z-index: 9;
-  position: absolute;
-  top: 0;
-  border-bottom: 150px solid transparent;
-  border-left: 150px solid $white;
-}
+  .card-imgframe {
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid $white;
+  }
 
-.title {
-  position: absolute;
-  margin: 0px 6px;
-  z-index: 10;
-  top: 0px;
-  left: 6px;
-  color: $orange_bistre;
-  font-size: $fontsize-l;
-}
+  .title {
+    position: absolute;
+    margin: 0px 6px;
+    z-index: 10;
+    top: 0px;
+    left: 6px;
+    color: $orange_bistre;
+    font-size: $fontsize-l;
+  }
 
-.text {
-  margin: 32px 30px 32px;
-  font-size: $fontsize-s;
-}
+  .text {
+    margin: 32px 30px 32px;
+    font-size: $fontsize-s;
+  }
 
-.card-button {
-  display: flex;
-  justify-content: center;
-  margin: 0px 32px 37px;
-  line-height: 33.4px;
+  .card-button {
+    display: flex;
+    justify-content: center;
+    margin: 0px 32px 37px;
+    line-height: 33.4px;
+  }
 }
