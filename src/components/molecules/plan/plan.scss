@@ -4,6 +4,9 @@
   position: relative;
   text-align: center;
   justify-content: center;
+  @media screen and (max-width: $breakpoint-md) {
+    width: 540px;
+  }
 }
 .plan-title {
   background-color: $orange_zorba;
@@ -12,6 +15,9 @@
   color: $white;
   font-size: large;
   margin: 20px 40px;
+  @media screen and (max-width: $breakpoint-md) {
+    width: 540px;
+  }
 }
 .plan-price {
   height: 142px;
