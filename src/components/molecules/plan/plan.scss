@@ -1,0 +1,50 @@
+@use "../../variables" as *;
+.plan {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+.plan-title {
+  background-color: $orange_zorba;
+  width: 220px;
+  height: 69px;
+  color: $white;
+  font-size: large;
+  margin: 20px 40px;
+}
+.plan-price {
+  height: 142px;
+  font-size: large;
+  background-color: $gray_desertStorm;
+  border: solid 1px $gray_gainsboro;
+  span.price {
+    font-size: xx-large;
+  }
+  span.month {
+    font-size: small;
+  }
+}
+.plan-membershipfee {
+  height: 60px;
+  margin: 20px 78px;
+  background-color: $white;
+  border: solid 1px $gray_gainsboro;
+}
+.plan-weekday {
+  height: 60px;
+  margin: 20px 56px;
+  border: solid 1px $gray_gainsboro;
+}
+
+.plan-weekends {
+  height: 60px;
+  margin: 20px 54px;
+  border: solid 1px $gray_gainsboro;
+}
+
+.remarks {
+  height: 80px;
+  margin: 20px 19px;
+  border: solid 1px $gray_gainsboro;
+}
