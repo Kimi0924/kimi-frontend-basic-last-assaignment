@@ -1,9 +1,20 @@
 @use "../../variables" as *;
 .plan-odd {
+  margin: 24px;
   display: flex;
   position: relative;
   text-align: center;
   justify-content: center;
+  @media screen and (max-width: $breakpoint-md) {
+    width: 540px;
+  }
+}
+.plan-even {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+
   @media screen and (max-width: $breakpoint-md) {
     width: 540px;
   }
@@ -20,10 +31,20 @@
   }
 }
 
-.plan-title:nth-child(even) {
+.plan-title2 {
   background-color: $orange_bistre;
+  width: 220px;
   height: 64px;
   border-top: 5px;
+  color: $white;
+  font-size: large;
+  margin: 20px 40px;
+  border-top: solid 5px $orange_bistre;
+  border-left: solid 5px $orange_bistre;
+  border-right: solid 5px $orange_bistre;
+  @media screen and (max-width: $breakpoint-md) {
+    width: 540px;
+  }
 }
 .plan-price {
   color: $orange_bistre;
@@ -39,16 +60,47 @@
     color: $black;
   }
 }
+.plan-price2 {
+  color: $orange_bistre;
+  height: 142px;
+  font-size: large;
+  background-color: $gray_desertStorm;
+  border: solid 1px $gray_gainsboro;
+  border-left: solid 5px $orange_bistre;
+  border-right: solid 5px $orange_bistre;
+  span.price {
+    font-size: xx-large;
+  }
+  span.month {
+    font-size: small;
+    color: $black;
+  }
+}
 .plan-membershipfee {
   height: 60px;
   margin: 20px 78px;
   background-color: $white;
   border: solid 1px $gray_gainsboro;
 }
+.plan-membershipfee2 {
+  height: 60px;
+  margin: 20px 78px;
+  background-color: $white;
+  border: solid 1px $gray_gainsboro;
+  border-left: solid 5px $orange_bistre;
+  border-right: solid 5px $orange_bistre;
+}
 .plan-weekday {
   height: 60px;
   margin: 20px 56px;
   border: solid 1px $gray_gainsboro;
+}
+.plan-weekday2 {
+  height: 60px;
+  margin: 20px 56px;
+  border: solid 1px $gray_gainsboro;
+  border-left: solid 5px $orange_bistre;
+  border-right: solid 5px $orange_bistre;
 }
 
 .plan-weekends {
@@ -56,9 +108,24 @@
   margin: 20px 54px;
   border: solid 1px $gray_gainsboro;
 }
+.plan-weekends2 {
+  height: 60px;
+  margin: 20px 54px;
+  border: solid 1px $gray_gainsboro;
+  border-left: solid 5px $orange_bistre;
+  border-right: solid 5px $orange_bistre;
+}
 
 .remarks {
   height: 80px;
   margin: 20px 19px;
   border: solid 1px $gray_gainsboro;
+}
+.remarks2 {
+  height: 80px;
+  margin: 20px 19px;
+  border: solid 1px $gray_gainsboro;
+  border-bottom: solid 5px $orange_bistre;
+  border-left: solid 5px $orange_bistre;
+  border-right: solid 5px $orange_bistre;
 }
