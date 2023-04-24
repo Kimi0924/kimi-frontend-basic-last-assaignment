@@ -1,6 +1,6 @@
-import Item_Button from "../components/atoms/button/button.html";
-import "../components/atoms/button/button.scss";
+import Item_News from "../components/organisms/news/news.html";
+import "../components/organisms/news/news.scss";
 
-export default { title: "Atoms/Button" };
+export default { title: "Organisms/News" };
 
-export const Button = () => Item_Button;
+export const News = () => Item_News;
