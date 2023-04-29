@@ -25,6 +25,7 @@
   color: $white;
   font-size: $fontsize-l;
   padding: 20px 40px;
+  line-height: 29px;
   &:nth-child(2n) {
     background-color: $orange_bistre;
     border-top: 5px;
@@ -40,6 +41,8 @@
 }
 
 .plan-price {
+  padding: 24px 48px;
+  line-height: 28.96px;
   font-weight: 700px;
   color: $orange_bistre;
   font-size: $fontsize-l;
@@ -51,9 +54,11 @@
   }
 
   span.price {
+    line-height: 58px;
     font-size: $fontsize-xxl;
   }
   span.month {
+    line-height: 20px;
     font-weight: 400px;
     font-size: $fontsize-s;
     color: $black;
@@ -61,6 +66,7 @@
 }
 
 .plan-membershipfee {
+  line-height: 20px;
   font-weight: 400px;
   padding: 20px 78px;
   background-color: $white;
@@ -72,6 +78,7 @@
 }
 
 .plan-weekday {
+  line-height: 20px;
   font-weight: 400px;
   padding: 20px 56px;
   border: solid 1px $gray_gainsboro;
@@ -82,6 +89,7 @@
 }
 
 .plan-weekends {
+  line-height: 20px;
   font-weight: 400px;
   padding: 20px 54px;
   border: solid 1px $gray_gainsboro;
@@ -92,6 +100,7 @@
 }
 
 .remarks {
+  line-height: 20px;
   font-weight: 400px;
   padding: 20px 19px;
   border: solid 1px $gray_gainsboro;
