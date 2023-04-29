@@ -8,6 +8,12 @@ li {
   list-style: none;
 }
 
+.news_list_item {
+  border: solid 1px $gray_gainsboro;
+  padding: 20px;
+  height: 85px;
+  width: 460px;
+}
 .news_list a {
   text-decoration: none;
 }
@@ -19,19 +25,18 @@ li {
 .news_item {
   font-size: $fontsize-m;
   color: $black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .news-and-events-title {
   & > h2 {
     display: flex;
     align-items: center;
-    font-size: $fontsize-l;
+    font-size: $fontsize-xxl;
     font-family: $fontfamily-mincho;
     margin-bottom: 32px;
-
-    @media (min-width: $breakpoint-md) {
-      font-size: $fontsize-xxl;
-    }
 
     .caption {
       font-size: $fontsize-m;
