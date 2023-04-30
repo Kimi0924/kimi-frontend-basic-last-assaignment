@@ -1,5 +1,5 @@
 @use "../../variables" as *;
-.plan-odd {
+.plan {
   margin-bottom: 24px;
   display: flex;
   position: relative;
@@ -9,16 +9,7 @@
     width: 540px;
   }
 }
-.plan-even {
-  margin-bottom: 24px;
-  display: flex;
-  position: relative;
-  text-align: center;
-  justify-content: center;
-  @media screen and (max-width: $breakpoint-md) {
-    width: 540px;
-  }
-}
+
 .plan-title {
   font-weight: 700;
   background-color: $orange_zorba;
