@@ -26,7 +26,10 @@
   font-size: $fontsize-l;
   padding: 20px 40px;
   line-height: 29px;
-  &:nth-child(2n) {
+  @media screen and (max-width: $breakpoint-md) {
+    width: 540px;
+  }
+  .plan-even.plan-title:nth-child(2) {
     background-color: $orange_bistre;
     border-top: 5px;
     color: $white;
@@ -34,9 +37,6 @@
     border-top: solid 5px $orange_bistre;
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
-  }
-  @media screen and (max-width: $breakpoint-md) {
-    width: 540px;
   }
 }
 
@@ -48,7 +48,7 @@
   font-size: $fontsize-l;
   background-color: $gray_desertStorm;
   border: solid 1px $gray_gainsboro;
-  &:nth-child(2n) {
+  .plan-even.plan-price:nth-child(2) {
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
   }
@@ -68,10 +68,10 @@
 .plan-membershipfee {
   line-height: 20px;
   font-weight: 400;
-  padding: 20px 78px;
+  padding: 20px;
   background-color: $white;
   border: solid 1px $gray_gainsboro;
-  &:nth-child(2n) {
+  .plan-even.plan-membershipfee:nth-child(2) {
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
   }
@@ -80,9 +80,9 @@
 .plan-weekday {
   line-height: 20px;
   font-weight: 400;
-  padding: 20px 56px;
+  padding: 20px;
   border: solid 1px $gray_gainsboro;
-  &:nth-child(2n) {
+  .plan-even.plan-weekday:nth-child(2) {
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
   }
@@ -91,9 +91,9 @@
 .plan-weekends {
   line-height: 20px;
   font-weight: 400;
-  padding: 20px 54px;
+  padding: 20px;
   border: solid 1px $gray_gainsboro;
-  &*:nth-child(2n) {
+  .plan-even.plan-weekends:nth-child(2) {
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
   }
@@ -102,9 +102,9 @@
 .remarks {
   line-height: 20px;
   font-weight: 400;
-  padding: 20px 19px;
+  padding: 20px;
   border: solid 1px $gray_gainsboro;
-  &:nth-child(2n) {
+  .plan-even.plan-remarks:nth-child(2) {
     border-bottom: solid 5px $orange_bistre;
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
