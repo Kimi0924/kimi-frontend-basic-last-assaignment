@@ -10,17 +10,8 @@
   }
 }
 
-.plan-title {
-  font-weight: 700;
-  background-color: $orange_zorba;
-  color: $white;
-  font-size: $fontsize-l;
-  padding: 20px 40px;
-  line-height: 29px;
-  @media screen and (max-width: $breakpoint-md) {
-    width: 540px;
-  }
-  .plan-even.plan-title:nth-child(2) {
+.plan:nth-child(even) {
+  table tr td.plan-title {
     background-color: $orange_bistre;
     border-top: 5px;
     color: $white;
@@ -31,7 +22,21 @@
   }
 }
 
+.plan-title {
+  height: 69px;
+  font-weight: 700;
+  background-color: $orange_zorba;
+  color: $white;
+  font-size: $fontsize-l;
+  padding: 20px 40px;
+  line-height: 29px;
+  @media screen and (max-width: $breakpoint-md) {
+    width: 540px;
+  }
+}
+
 .plan-price {
+  height: 142px;
   padding: 24px 48px;
   line-height: 28.96px;
   font-weight: 700;
@@ -39,10 +44,6 @@
   font-size: $fontsize-l;
   background-color: $gray_desertStorm;
   border: solid 1px $gray_gainsboro;
-  .plan-even.plan-price:nth-child(2) {
-    border-left: solid 5px $orange_bistre;
-    border-right: solid 5px $orange_bistre;
-  }
 
   span.price {
     line-height: 58px;
@@ -55,47 +56,66 @@
     color: $black;
   }
 }
+.plan:nth-child(even) {
+  table tr td.plan-price {
+    border-left: solid 5px $orange_bistre;
+    border-right: solid 5px $orange_bistre;
+  }
+}
 
 .plan-membershipfee {
+  height: 60px;
   line-height: 20px;
   font-weight: 400;
-  padding: 20px;
+  padding: 20px 78px;
   background-color: $white;
   border: solid 1px $gray_gainsboro;
-  .plan-even.plan-membershipfee:nth-child(2) {
+}
+.plan:nth-child(even) {
+  table tr td.plan-membershipfee {
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
   }
 }
-
 .plan-weekday {
+  height: 60px;
   line-height: 20px;
   font-weight: 400;
-  padding: 20px;
+  padding: 20px 56px;
   border: solid 1px $gray_gainsboro;
-  .plan-even.plan-weekday:nth-child(2) {
+}
+.plan:nth-child(even) {
+  table tr td.plan-weekday {
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
   }
 }
-
 .plan-weekends {
+  height: 60px;
   line-height: 20px;
   font-weight: 400;
-  padding: 20px;
+  padding: 20px 54px;
   border: solid 1px $gray_gainsboro;
   .plan-even.plan-weekends:nth-child(2) {
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
   }
 }
-
+.plan:nth-child(even) {
+  table tr td.plan-weekends {
+    border-left: solid 5px $orange_bistre;
+    border-right: solid 5px $orange_bistre;
+  }
+}
 .remarks {
+  height: 60px;
   line-height: 20px;
   font-weight: 400;
-  padding: 20px;
+  padding: 20px 19px;
   border: solid 1px $gray_gainsboro;
-  .plan-even.plan-remarks:nth-child(2) {
+}
+.plan:nth-child(even) {
+  table tr td.remarks {
     border-bottom: solid 5px $orange_bistre;
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
