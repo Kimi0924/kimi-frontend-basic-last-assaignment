@@ -12,7 +12,7 @@ table {
 }
 
 .plan:nth-child(even) {
-  table tr td.plan-title {
+  .plan-title {
     background-color: $orange_bistre;
     border-top: 5px;
     color: $white;
@@ -59,7 +59,7 @@ table {
   }
 }
 .plan:nth-child(even) {
-  table tr td.plan-price {
+  .plan-price {
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
   }
@@ -74,7 +74,7 @@ table {
   border: solid 1px $gray_gainsboro;
 }
 .plan:nth-child(even) {
-  table tr td.plan-membershipfee {
+  .plan-membershipfee {
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
   }
@@ -87,7 +87,7 @@ table {
   border: solid 1px $gray_gainsboro;
 }
 .plan:nth-child(even) {
-  table tr td.plan-weekday {
+  .plan-weekday {
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
   }
@@ -104,7 +104,7 @@ table {
   }
 }
 .plan:nth-child(even) {
-  table tr td.plan-weekends {
+  .plan-weekends {
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
   }
@@ -117,7 +117,7 @@ table {
   border: solid 1px $gray_gainsboro;
 }
 .plan:nth-child(even) {
-  table tr td.remarks {
+  .remarks {
     border-bottom: solid 5px $orange_bistre;
     border-left: solid 5px $orange_bistre;
     border-right: solid 5px $orange_bistre;
