@@ -1,4 +1,7 @@
 @use "../../variables" as *;
+table {
+  width: 100%;
+}
 .plan {
   margin-bottom: 24px;
   display: flex;
@@ -6,9 +9,6 @@
   text-align: center;
   justify-content: center;
   width: 100%;
-  @media screen and (max-width: $breakpoint-md) {
-    width: 540px;
-  }
 }
 
 .plan:nth-child(even) {
@@ -31,9 +31,6 @@
   font-size: $fontsize-l;
   padding: 20px 40px;
   line-height: 29px;
-  @media screen and (max-width: $breakpoint-md) {
-    width: 540px;
-  }
 }
 
 .plan-price {
@@ -49,12 +46,16 @@
   span.price {
     line-height: 58px;
     font-size: $fontsize-xxl;
+    padding-left: 4px;
   }
   span.month {
     line-height: 20px;
     font-weight: 400;
     font-size: $fontsize-s;
     color: $black;
+  }
+  br {
+    height: 16px;
   }
 }
 .plan:nth-child(even) {
