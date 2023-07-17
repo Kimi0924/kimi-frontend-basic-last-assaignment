@@ -72,6 +72,7 @@ table {
   padding: 20px 78px;
   background-color: $white;
   border: solid 1px $gray_gainsboro;
+  font-size: 14px;
 }
 .plan:nth-child(even) {
   .plan-membershipfee {
@@ -80,6 +81,7 @@ table {
   }
 }
 .plan-weekday {
+  font-size: 14px;
   height: 60px;
   line-height: 20px;
   font-weight: 400;
@@ -93,6 +95,7 @@ table {
   }
 }
 .plan-weekends {
+  font-size: 14px;
   height: 60px;
   line-height: 20px;
   font-weight: 400;
@@ -110,6 +113,7 @@ table {
   }
 }
 .remarks {
+  font-size: 14px;
   height: 60px;
   line-height: 20px;
   font-weight: 400;
