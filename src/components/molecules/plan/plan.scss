@@ -2,23 +2,43 @@
 table {
   width: 100%;
 }
+
 .plan {
   margin-bottom: 24px;
   display: flex;
   text-align: center;
   justify-content: center;
-  width: 100%;
-}
-
-.plan:nth-child(even) {
-  .plan-title {
-    background-color: $orange_bistre;
-    border-top: 5px;
-    color: $white;
-    padding: 20px 40px;
-    border-top: solid 5px $orange_bistre;
-    border-left: solid 5px $orange_bistre;
-    border-right: solid 5px $orange_bistre;
+  &:nth-child(even) {
+    .plan-title {
+      background-color: $orange_bistre;
+      border-top: 5px;
+      color: $white;
+      padding: 20px 40px;
+      border-top: solid 5px $orange_bistre;
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
+    .plan-price {
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
+    .plan-membershipfee {
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
+    .plan-weekday {
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
+    .plan-weekends {
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
+    .remarks {
+      border-bottom: solid 5px $orange_bistre;
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
   }
 }
 
@@ -30,6 +50,7 @@ table {
   font-size: $fontsize-l;
   padding: 20px 40px;
   line-height: 29px;
+  border: solid 1px $orange_zorba;
 }
 
 .plan-price {
@@ -41,31 +62,23 @@ table {
   font-size: $fontsize-l;
   background-color: $gray_desertStorm;
   border: solid 1px $gray_gainsboro;
-
-  span.price {
-    line-height: 58px;
-    font-size: $fontsize-xxl;
-    padding-left: 4px;
-  }
-  span.month {
-    line-height: 20px;
-    font-weight: 400;
-    font-size: $fontsize-s;
-    color: $black;
-  }
-  br {
-    height: 16px;
-  }
 }
+
+span.price {
+  line-height: 58px;
+  font-size: $fontsize-xxl;
+  padding-left: 4px;
+}
+span.month {
+  line-height: 20px;
+  font-weight: 400;
+  font-size: $fontsize-s;
+  color: $black;
+}
+
 .price {
   display: inline-block;
   margin-bottom: $fontsize-m;
-}
-.plan:nth-child(even) {
-  .plan-price {
-    border-left: solid 5px $orange_bistre;
-    border-right: solid 5px $orange_bistre;
-  }
 }
 
 .plan-membershipfee {
@@ -76,57 +89,25 @@ table {
   background-color: $white;
   border: solid 1px $gray_gainsboro;
 }
-.plan:nth-child(even) {
-  .plan-membershipfee {
-    border-left: solid 5px $orange_bistre;
-    border-right: solid 5px $orange_bistre;
-  }
-}
+
 .plan-weekday {
-  height: 60px;
-  line-height: 20px;
-  font-weight: 400;
   padding: 20px 56px;
   border: solid 1px $gray_gainsboro;
 }
-.plan:nth-child(even) {
-  .plan-weekday {
-    border-left: solid 5px $orange_bistre;
-    border-right: solid 5px $orange_bistre;
-  }
-}
+
 .plan-weekends {
-  height: 60px;
-  line-height: 20px;
-  font-weight: 400;
   padding: 20px 54px;
   border: solid 1px $gray_gainsboro;
-  .plan-even.plan-weekends:nth-child(2) {
-    border-left: solid 5px $orange_bistre;
-    border-right: solid 5px $orange_bistre;
-  }
 }
-.plan:nth-child(even) {
-  .plan-weekends {
-    border-left: solid 5px $orange_bistre;
-    border-right: solid 5px $orange_bistre;
-  }
-}
+
 .remarks {
-  height: 60px;
-  line-height: 20px;
-  font-weight: 400;
   padding: 20px 19px;
   border: solid 1px $gray_gainsboro;
-}
-.plan:nth-child(even) {
-  .remarks {
-    border-bottom: solid 5px $orange_bistre;
-    border-left: solid 5px $orange_bistre;
-    border-right: solid 5px $orange_bistre;
-  }
 }
 
 .plan-content {
   font-size: $fontsize-s;
+  height: 60px;
+  line-height: 20px;
+  font-weight: 400;
 }
