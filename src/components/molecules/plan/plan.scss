@@ -1,0 +1,110 @@
+@use "../../variables" as *;
+table {
+  width: 100%;
+}
+
+.plan {
+  margin-bottom: 24px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  &:nth-child(even) {
+    .plan-title {
+      background-color: $orange_bistre;
+      border-top: 5px;
+      color: $white;
+      padding: 20px 40px;
+      border-top: solid 5px $orange_bistre;
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
+    .plan-price {
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
+    .plan-membershipfee {
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
+    .plan-weekday {
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
+    .plan-weekends {
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
+    .remarks {
+      border-bottom: solid 5px $orange_bistre;
+      border-left: solid 5px $orange_bistre;
+      border-right: solid 5px $orange_bistre;
+    }
+  }
+}
+
+.plan-title {
+  height: 69px;
+  font-weight: 700;
+  background-color: $orange_zorba;
+  color: $white;
+  font-size: $fontsize-l;
+  padding: 20px 40px;
+  line-height: 29px;
+  border: solid 1px $orange_zorba;
+}
+
+.plan-price {
+  height: 142px;
+  padding: 24px 48px;
+  line-height: 28.96px;
+  font-weight: 700;
+  color: $orange_bistre;
+  font-size: $fontsize-l;
+  background-color: $gray_desertStorm;
+  border: solid 1px $gray_gainsboro;
+}
+
+span.price {
+  line-height: 58px;
+  font-size: $fontsize-xxl;
+  padding-left: 4px;
+}
+span.month {
+  line-height: 20px;
+  font-weight: 400;
+  font-size: $fontsize-s;
+  color: $black;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.plan-membershipfee {
+  height: 60px;
+  line-height: 20px;
+  font-weight: 400;
+  padding: 20px 78px;
+  background-color: $white;
+  border: solid 1px $gray_gainsboro;
+}
+
+.plan-weekday {
+  padding: 20px 56px;
+  border: solid 1px $gray_gainsboro;
+}
+
+.plan-weekends {
+  padding: 20px 54px;
+  border: solid 1px $gray_gainsboro;
+}
+
+.remarks {
+  padding: 20px 19px;
+  border: solid 1px $gray_gainsboro;
+}
+
+.plan-content {
+  font-size: $fontsize-s;
+  height: 60px;
+  line-height: 20px;
+  font-weight: 400;
+}
